@@ -12,7 +12,31 @@
     <header>
       <h1>David's Vault</h1>
     </header>
-
+    <section id="content-main">
+      <form id="form" method="post">
+        <ol id="form-list">
+          <li id="liname">
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="John Smith" required />
+          </li>
+          <li id="liemail">
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="smith@anon.com" required />
+          </li>
+          <li id="litel">
+            <label for="tel">Telephone:</label>
+            <input id="tel" type="tel" name="tel" placeholder="123-456-7890" required />
+          </li>
+          <li id="lidate">
+            <label for="date">Date of Birth:</label>
+            <input id="date" type="date" name="date" placeholder="yyyy-mm-dd" required />
+          </li>
+          <li id="lisubmit">
+            <input type="submit" value="Submit" />
+          </li>
+        </ol>
+      </form>
+    </section>
     <footer>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
