@@ -8,6 +8,8 @@ $('#form').on("submit", function(e) {
   var tday = today.getDate();
   var bday = bdate.getDate() + 1; //	for some reason I need to add 1 to date
 
+  //  console.log("Today is: " + tmonth + " " + tday + " " + tyear);
+  //  console.log("DOB is  : " + bmonth + " " + bday + " " + byear);
   e.preventDefault(); //	Prevent link
   console.log("Attempting submission"); //	Add to console
   if ( tyear - byear > 18 ) {
@@ -17,15 +19,17 @@ $('#form').on("submit", function(e) {
   else if ( tyear - byear === 18 ) {
 
     console.log("Equal to 18 yrs. old");
-    //	console.log("tmonth = " + tmonth);
-    //	console.log("bmonth = " + bmonth);
+    // console.log("tmonth = " + tmonth);
+    // console.log("bmonth = " + bmonth);
     if ( tmonth > bmonth ) {
+      console.log("Birth month already passed.");
       formsubmitted();
     }
     else if ( tmonth === bmonth ) {
-      //	console.log("tday = " + tday);
-      //	console.log("bday = " + bday);
+      //  console.log("tday = " + tday);
+      //  console.log("bday = " + bday);
       if ( tday > bday ) {
+        console.log("Your bday already passed.");
         formsubmitted();
       }
       else if ( tday === bday ) {
