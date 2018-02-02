@@ -7,8 +7,33 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+/* 18 px base with perfect fourth scale
+http://www.modularscale.com/?18&px&1.333 */
 /* Base Styles */
+html {
+  font-size: 1.125em; /* 18 / 16 = 1.125 */
+  line-height: 1.222em; /* 22 / 18 = 1.222 */
+}
+h3 {
+  font-size: 1.333em; /* 23.994 / 18 = 1.333 */
+  line-height: 1.146em; /* 22px * 1.25 */ /* 27.5 / 23.994 = 1.146 */
+}
+h2 {
+  font-size: 1.777em; /* 31.984 / 18 = 1.777 */
+  line-height: 1.032em; /* 22px * 1.5; 33 / 31.984 = 1.032 */
+}
+h1 {
+  font-size: 2.369em; /* 42.635 / 18 = 2.369 */
+  line-height: 1.032em; /* 22px * 2; 44 / 42.635 = 1.032 */
+}
+
 /* Layout Styles */
+
+
 /* Module Styles */
+
+
 /* State Styles */
+
+
 /* Theme Styles */
