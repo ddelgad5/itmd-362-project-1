@@ -3,8 +3,8 @@ $('#form').on("submit", function(e) {
   var bdate = new Date($('#date')[0].value); //		Get user DOB
   var tyear = today.getFullYear(); //	Get todays year
   var byear = bdate.getFullYear(); //	Get users YOB
-  var tmonth = today.getMonth();
-  var bmonth = bdate.getMonth();
+  var tmonth = today.getMonth() + 1;
+  var bmonth = bdate.getMonth() + 1;
   var tday = today.getDate();
   var bday = bdate.getDate() + 1; //	for some reason I need to add 1 to date
 
