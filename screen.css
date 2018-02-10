@@ -14,6 +14,7 @@ html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.22222em; /* 22 / 18 = 1.222 */
   padding-bottom: 2.444em; /* 44 / 18 = 2.44444*/
+  font-family: 'Lato', sans-serif;
 }
 h2 {
   font-size: 1.777em; /* 31.984 / 18 = 1.777 */
@@ -23,6 +24,7 @@ h2 {
 h1 {
   font-size: 2.36861em; /* 42.635 / 18 = 2.36861 */
   line-height: 1.032em; /* 22px * 2; 44 / 42.635 = 1.032 */
+  font-family: 'Acme', sans-serif;
 }
 
 /* Layout Styles */
