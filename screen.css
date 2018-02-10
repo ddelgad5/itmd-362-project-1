@@ -32,7 +32,6 @@ h1 {
 }
 form {
   background-color: rgb(255, 92, 87);
-  padding-bottom: 1.222em; /* 22 / 18 = 1.222 */
 }
 
 /* Layout Styles */
@@ -48,6 +47,10 @@ p, li, a {
   padding-left: 0.555em; /* 10/18 = 0.555 */
   padding-right: 0.555em; /* 10/18 = 0.555 */
 }
+#form-list li {
+  padding-bottom: 1.22222em; /* 22 / 18 = 1.222 */
+}
+
 /* Module Styles */
 
 
