@@ -13,7 +13,6 @@ http://www.modularscale.com/?18&px&1.333 */
 html {
   font-size: 1.125em; /* 18 / 16 = 1.125 */
   line-height: 1.222222222em; /* 22 / 18 = 1.222 */
-  padding-bottom: 2.444444444em; /* 44 / 18 = 2.44444*/
   font-family: Lato, sans-serif;
 }
 h2 {
@@ -42,15 +41,16 @@ input {
   line-height: inherit;
   font-size: inherit;
 }
-
-p, li, a {
+p, li, a, footer {
   padding-left: 0.555555555em; /* 10/18 = 0.555 */
   padding-right: 0.555555555em; /* 10/18 = 0.555 */
 }
 #form-list li {
   padding-bottom: 1.222222222em; /* 22 / 18 = 1.222 */
 }
-
+footer {
+  line-height: 2.44444444em; /* 44/18 = 2.4444 */
+}
 /* Module Styles */
 
 
