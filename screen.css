@@ -55,6 +55,23 @@ p, li, a {
 
 
 /* State Styles */
-
+@media screen and (min-width: 800px) {
+  html {
+    margin-left: 9.375vw; /* 75 / 800 = 0.09375 */
+    margin-right: 9.375vw; /* 75 / 800 = 0.09375 */
+  }
+}
+@media screen and (min-width: 925px) {
+  html {
+    margin-left: 13.51351vw; /* 125/925 = .1351351 */
+    margin-right: 13.51351vw; /* 125/925 = .1351351 */
+  }
+}
+@media screen and (min-width: 1200px) {
+  html {
+    margin-left: 20vw; /* 240/1200 = .2 */
+    margin-right: 20vw; /* 240/1200 = .2 */
+  }
+}
 
 /* Theme Styles */
