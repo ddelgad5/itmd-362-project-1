@@ -1,10 +1,12 @@
 $('#form').on("submit", function(e) {
   e.preventDefault(); //	Prevent link
   console.log("Attempting submission"); //	Add to console
+  console.log($('#email').val());
+  formsubmitted($('#name').val());
 });
 
-function formsubmitted() {
+function formsubmitted(name) {
   console.log("Form passed proper tests");
   $('#form').remove();
-  $('body').append('<h2 id="post">Form submitted successfully.</h2>');
+  $('main').append('<h2 id="post">Thank you for signing up '+ name +'.</h2>');
 }
