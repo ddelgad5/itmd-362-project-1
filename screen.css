@@ -57,6 +57,7 @@ p, li, a, footer {
   padding-bottom: 1.222222222em; /* 22 / 18 = 1.222 */
 }
 footer {
+  float: left;
   line-height: 2.44444444em; /* 44/18 = 2.4444 */
 }
 /* Module Styles */
@@ -79,6 +80,9 @@ footer {
   html {
     margin-left: 20vw; /* 240/1200 = .2 */
     margin-right: 20vw; /* 240/1200 = .2 */
+  }
+  footer {
+    float: right;
   }
 }
 
