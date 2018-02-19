@@ -81,6 +81,17 @@ footer {
     margin-left: 20vw; /* 240/1200 = .2 */
     margin-right: 20vw; /* 240/1200 = .2 */
   }
+  form, aside {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  form h2{
+    margin-top: 0;
+  }
+  #post {
+    padding-top: 11px;
+  }
   footer {
     float: right;
   }
