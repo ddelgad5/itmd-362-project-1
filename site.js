@@ -1,8 +1,14 @@
 $('#form').on("submit", function(e) {
+  var reAtSign = /@/g;
   e.preventDefault(); //	Prevent link
   console.log("Attempting submission"); //	Add to console
-  console.log($('#email').val());
-  formsubmitted($('#name').val());
+  console.log("Email is : "+$('#email').val());
+  if ($('#email').val().match(reAtSign).length <= 0 || $('#email').val().match(/@/g).length > 1) {
+    console.log("None or too many @ symbols found.");
+  }
+  else {
+    formsubmitted($('#name').val());
+  }
 });
 
 function formsubmitted(name) {
